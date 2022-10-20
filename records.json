@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "image":"img/5.png",
+        "textlayer": "<h1 animate-in=\"drop\" style=\"color: white;\">Flowers</h1><p style=\"color:dark-black;\"><b>Today , we are exploring different types of flowers.</b></p>",
+        "player" : "<p> Frontend Development and UI/UX Design skills. He is passionate and enthusiastic about Blockchain technology and also uses creative thinking to solve business problems using a user-centered approach. He spends most of his time either learning a new skill or teaching others what he loves doing best.</p>"
+        
+    },
+
+    {
+        "id":2,
+        "image":"img/1.png",
+        "textlayer": "<h1 animate-in=\"zoom-out\">Happy</h1>",
+        "player" : "<p>Jethro Magaji is a student at Kaduna State University With </p>"
+        
+    },
+
+    {
+        
+        "id":3,
+        "image":"img/4.png",
+        "textlayer": "<h1 animate-in=\"fly-in-right\">Example</h1>", 
+        "player" : "<p>Jethro Magaji is a student at Kaduna State University With Frontend Development and UI/UX Design skills. He is passionate and enthusiastic about Blockchain technology and also uses creative thinking to solve business problems using a user-centered approach. He spends most of his time either learning a new skill or teaching others what he loves doing best.</p>"
+        
+    }
+    
+]                     

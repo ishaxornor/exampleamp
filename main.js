@@ -8,9 +8,8 @@
    init();
  });
  
- /**
-  * Initializes the carousel once the player is ready.
-  */
+
+
  function init() {
    const playerEl = document.body.querySelector('amp-story-player');
    setPlayer(playerEl);
@@ -23,10 +22,9 @@
      });
    }
  }
- 
- /**
-  * Initializes cards, arrows, and listeners for the carousel.
-  */
+  
+
+
  function initializeCarousel() {
    const lightbox = document.body.querySelector('.lightbox');
    setLightbox(lightbox);
@@ -38,13 +36,13 @@
      closePlayer();
    });
  
-   // For swipe down to close.
+   
+   
    initializeTouchListeners();
  }
  
- /**
-  * Closes the player from the lightbox experience.
-  */
+ 
+ 
   function closePlayer() {
    player.pause();
    document.body.classList.toggle('lightbox-open', false);

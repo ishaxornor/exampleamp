@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html amp lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-story-1.0.js">
+
+    <link rel="canonical" href="https://www.example.com/url/to/full/document.html">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script async custom-element="amp-story-interactive"
+        src="https://cdn.ampproject.org/v0/amp-story-interactive-0.1.js"></script>
+
+    <style amp-custom>
+        .center {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 22em;
+            font-size: 0.23em;
+        }
+
+        #poll-1 {
+            --interactive-prompt-text-color: rgb(230, 110, 19)
+        }
+
+        #poll-2 {
+            --interactive-accent-color: rgb(9, 63, 4);
+        }
+
+        #poll-3 {
+            --interactive-prompt-background: linear-gradient(120deg, dodgerblue, blue);
+        }
+    </style>
+
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style><noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+
+    <title>AMP 2</title>
+
+</head>
+
+<body>
+    <amp-story standalone title="Example" publisher="Interactive stories format"
+        publisher-logo-src="https://amp.dev/static/img/icons/icon-512x512.png" poster-portrait-src="./last_supper.jpg"
+        id="page-poll-1">
+
+
+        <amp-story-page id="cover-1">
+            <!--Layer 1-->
+            <amp-story-grid-layer template="fill">
+                <amp-img animate-in="drop" id="data-output" src="img/sun1.jpeg" width="1080px" height="1920px"
+                    layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <!--Layer 1-->
+
+            <!---Layer 2 -->
+            <amp-story-grid-layer template="thirds">
+                <div grid-area="middle-third">
+                    <h1 animate-in="drop" style="color: white;">Sunset</h1>
+                    <p style="color:dark-black;"><b>The sky speaks in a thousand colors.</b></p>
+                </div>
+            </amp-story-grid-layer>
+            <!---Layer 2 -->
+
+        </amp-story-page>
+
+        <!--First Section-->
+        <!------------------------------------------------------------------------------------------------------>
+
+        <!-- Second Section -->
+
+        <amp-story-page id="cover-2" style="background-color: lightcoral;">
+            <amp-story-grid-layer template="vertical">
+                <div>
+                    <h2 animate-in="fade-in">5 Reasons Why You Should Make Time for the Sunset</h2>
+                    <br />
+
+                    <div style="margin-top: 2px; margin-bottom:2px;">
+                        <h3 animate-in="fade-in">It will put you in a better mood.</h3>
+
+                        <h3 animate-in="fade-in">It gives you a reason to go outside. </h3>
+
+                        <h3 animate-in="fade-in">It will inspire you.</h3>
+                        
+                        <h3 animate-in="fade-in">It will make you more grateful for Earth.</h3>
+                        
+                        <h3 animate-in="fade-in">It slows down time. </h3>
+
+
+                        <!-- <p animate-in="fade-in">Sunset is the time when the sun goes down and night begins. During the sunset, nature assumes fresh, bright, and charming. The sun seems to be a disc of gold. At the time of sunset, one can enjoy the serenity of a sunset. Then nature seems in a hurry.</p>
+                        -->
+                    
+                    </div>                    
+
+                    <br />
+
+                    <!-- <div style="margin-top: 2px; margin-bottom:2px;">
+                        <h3 animate-in="fade-in">Begonia</h3>
+
+                        <p animate-in="fade-in">Begonia is an easy-to-grow flower that does great in many different
+                            conditions. They come in many different shapes, sizes, and colors. It’s a perennial plant.
+
+                            Plant in full sun or partial shade.
+                            Needs well-drained soil.
+                            Blooms in late spring to early fall.</p>
+                        <button><a href="https://www.flowerglossary.com/types-of-flowers/">See More</a></button>
+                    </div> -->
+<!-- 
+                    <br />
+
+                    <div style="margin-top: 2px; margin-bottom:2px;">
+                        <h3 animate-in="fade-in">Bellflower plant</h3>
+
+                        <p animate-in="fade-in">Bellflowers are known for their resemblance to bells and are also called
+                            Campanula. These flowers come in many sizes and varieties.</p>
+                        <button><a href="https://www.flowerglossary.com/types-of-flowers/">See More</a></button>
+                    </div> -->
+
+                </div>
+
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <!--Second Section-->
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!-- Third Section -->
+
+        <amp-story-page id="cover-3">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/sun3.jpeg" width="1080px" height="1920px" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+
+            <amp-story-grid-layer template="thirds">
+                <div grid-area="upper-third">
+                    <h1 animate-in="fade-in" style="color: white;"></h1>
+                    <p animate-in="whoosh-in-left" style="color:dark-black;"><b>It is a popular tubular flower that has
+                            42 different species and
+                            grows in a variety of bright colors.
+                            Its native to Central America and Mexico and grows from small tubers.</b></p>
+
+                </div>
+            </amp-story-grid-layer>
+
+            </amp-story-page>
+
+        <!--Third Section-->
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <!-- Fourth Section -->
+
+        <amp-story-page id="cover-4">
+
+            <amp-story-grid-layer template="fill" class="noedge">
+                <div class="wrapper">
+                    <amp-img src="img/sun4.png" animate-in="fade-in" width="1080px" height="1920px" layout="responsive"
+                        alt="...">
+                    </amp-img>
+
+                </div> 
+            </amp-story-grid-layer>
+
+            <amp-story-grid-layer template="thirds">
+                <div grid-area="lower-third">
+                    <h1 animate-in="drop" style="color: white;">Beauty of Flowers</h1>
+                </div>
+            </amp-story-grid-layer>
+
+            </div>
+
+        </amp-story-page>
+
+        <!--Fourth Section-->
+
+        <!--Fifth section-->
+
+        <amp-story-page id="cover-5">
+
+            <amp-story-grid-layer template="fill" class="noedge">
+                <div class="wrapper">
+                    <amp-img src="img/sun5.jpg" animate-in="fade-in" width="1080px" height="1920px" layout="responsive"
+                        alt="...">
+                    </amp-img>
+
+                </div>
+            </amp-story-grid-layer>
+
+            <amp-story-grid-layer template="thirds">
+                <div grid-area="upper-third">
+                    <h1 animate-in="rotate-in-right" style="color: black;">Daisy</h1>
+                    <p animate-in="fade-in"><b>Is an easy to grow flower that is instantly recognizable.
+                            Brightly-colored Gerbera daisies are our absolute favorites, but there are numerous other
+                            types of daisies.</b></p>
+                    <p><b>
+                            <ul>
+                                <li>Plant in full sun.</li>
+                                <li>Needs well-drained soil.</li>
+                                <li>Blooms in mid-summer to early fall.</li>
+                            </ul>
+                        </b>
+                    </p>
+
+                    <h3><a href="https://www.flowerglossary.com/types-of-flowers/#Daffodil">To know More</a></h3>
+                </div>
+            </amp-story-grid-layer>
+
+
+        </amp-story-page>
+
+
+        <script src="script1.js"></script>
+    </amp-story>
+
+</body>
+
+</html>
